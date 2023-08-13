@@ -5,6 +5,8 @@ B = list(map(int, input().split()))
 A.sort()
 B.sort()
 B.reverse()
+
+
 sum = 0
 for i in range(N):
     sum += A[i]*B[i]
